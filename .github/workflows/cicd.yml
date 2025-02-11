@@ -20,6 +20,7 @@ jobs:
     - name: Bump tag if necessary
       id: ccv
       uses: smlx/ccv@d3de774e9b607b079940a7a86952f44643743336 # v0.9.0
+      
   releasae-build:
     runs-on: ubuntu-latest
     needs: release-tag

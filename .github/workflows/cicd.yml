@@ -39,7 +39,7 @@ jobs:
           path: init.tar
 
   release-publish:
-    needs: releasae-build
+    needs: [releasae-build, release-tag]
     runs-on: ubuntu-latest
     environment: prod
     steps:

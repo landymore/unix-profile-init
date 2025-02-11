@@ -1,0 +1,17 @@
+# .gitignore
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore VS Code specific files
+.vscode/

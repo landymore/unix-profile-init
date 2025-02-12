@@ -43,7 +43,7 @@ jobs:
     needs: [releasae-build, release-tag]
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     environment: prod
     steps:
       - name: Download artifact

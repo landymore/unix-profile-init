@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Create tarball
-        run: tar -czvf init.tar ./src
+        run: tar -czvf init.tar -C src .
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
